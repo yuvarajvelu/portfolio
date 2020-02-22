@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+.port-folio{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(245, 67, 67);
+}
+.nav-elements{
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+.nav-lists{
+    display: flex;
+    list-style-type: none;
+}
+.nav-lists :hover{
+    background-color: rgb(51, 51, 161);
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    line-height: 0.3;
+}
+.aboutme{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.about{
+    color: rgb(245, 67, 67);
+    font-weight: normal;
+    font-size: 25px;
+    padding: 0%;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #45567d;
+    text-align: center;
+    font-family: sans-serif;
+    height: 75vh;
+    padding-top: 10px;
+}
+.project-details{
+    text-decoration: underline;
+    font-size: 45px;
+    color: white;
+    padding-bottom: 10px;
+}
+.project-info{
+    background-color: black;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+.project-img{
+    width: 60%;
+}
+.project-name{
+    color: white;
+}
+.project-info :hover{
+    color: chartreuse;
+}
+.profile-connect{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+}
+.contact-links{
+    display: flex;
+    text-decoration: none;
+}
+.socialmedia{
+    background-color: black;
+}
+.seemore{
+    background-color: black;
+    color: white;
+    text-align: center;
+    transform: translateY(100px);
+    padding: 10px 10px;
+}
+.more{
+    text-decoration: none;
+}
+.more :hover{
+    color: chartreuse;
+}   
+#profile-link{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.contact-links :hover{
+    transform: translateY(5px);
+}
